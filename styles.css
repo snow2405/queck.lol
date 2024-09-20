@@ -30,7 +30,6 @@ body {
 
 /* Countdown with fixed spacing and Space Mono font */
 #countdown {
-    font-size: 8vw; /* Adjust font size for smaller screens */
     font-family: 'Space Mono', monospace;
     font-weight: bold;
     color: #ffffff;
@@ -39,6 +38,8 @@ body {
     white-space: nowrap;
     letter-spacing: 0.05em;
     text-align: center;
+    font-size: clamp(5vw, 12vw, 20vw); /* Dynamically adjusts font size */
+    overflow: hidden; /* Prevents overflow */
 }
 
 /* "Coming Soon" text styling */
