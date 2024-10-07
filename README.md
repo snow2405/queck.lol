@@ -1,1 +1,1 @@
-# hsg.wtf
+# queck.lol
